@@ -25,20 +25,34 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+   forEach does not automatically return an array while map does.
+   map will rerun a new array with a specific form of data that we are trying to convert
 
 2. Explain the difference between a callback and a higher order function.
+   A HOF takes in a callback function as an argument
 
 3. What is closure?
+   a closure happens when a function has to reach outside of its function to get a value for a variable
 
 4. Describe the four rules of the 'this' keyword.
+   new - when a constructor function is invoked this will point to the newly created object
+   explicit - there are two forms of explicit binding(we tell javascript what to do )
+   there is call and bind.
+   call is an immediate invocation of the function to create an item with arguments 1 by 1
+   bind - binds the this keyword to the object that will be created later
+
+   implicit - when a function is invoked implicit binding of the this  
+   keyword will look to the left of the dot - which is what the this keyword will be referring to
+   window - bad practice to use this if all the other rules fail this is what javascript will default to unless in strict mode where it will return undefined
 
 5. Why do we need super() in an extended class?
+   extends will extend the prototype properties of the parent on to the child while super will apply the methods of the parent
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
 
-### Task 1: Project Set Up
+<!-- ### Task 1: Project Set Up
 
 Follow these steps to set up your project:
 
@@ -48,7 +62,7 @@ Follow these steps to set up your project:
    NOTE: Tests will run for the JavaScript portion of this challenge only
 4. open the terminal in your vs code and type `npm install`
 5. next type `npm run test:watch` in your terminal
-6. Complete your work making regular commits, once you have all your tests passing and you are ready to submit your work please see canvas for instructions on how to submit
+6. Complete your work making regular commits, once you have all your tests passing and you are ready to submit your work please see canvas for instructions on how to submit -->
 
 ### Task 2: Project Requirements
 
